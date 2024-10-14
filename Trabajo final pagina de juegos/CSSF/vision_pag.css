@@ -1,0 +1,176 @@
+/* Estilo de la galeria de imagenes */
+body {
+    height: 1500px;
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+}
+h1, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+h5:hover{
+    color:#ff00d4;
+}  
+.container {
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    background-color: #dc85ff;
+    
+
+}
+
+.nav{
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #6d87a1;
+    border: none;
+    border-bottom: none;
+}
+
+
+
+@media (max-width: 1200px) {
+    .grid {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        column-count: 1;
+    }
+}
+/* Estilos personalizados para el carrusel */
+.custom-carousel {
+    width: 99%; /* Establece el ancho del carrusel (puedes usar % o px) */
+    max-width: 1700px; /* Tamaño máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+}
+
+.custom-carousel img {
+    height: 500px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que la imagen ocupe todo el espacio sin distorsionarse */
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+}
+
+.destacados {
+    text-align: center;
+}
+
+
+
+
+
+.juegos_mas_vendidos {
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 300px; /* Ancho de la imagen *//
+
+}
+
+.juegos_mas_vendidos img {
+    width: 300px; /* Asegúrate de que coincida con el width en HTML */
+    transition: transform 0.3s ease; /* Suaviza la transición */
+}
+
+.juegos_mas_vendidos img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+}
+
+
+.subtitulo {
+    text-align: center; /* Centra el texto del h2 */
+}
+
+.carrusel_tarjetas {
+    text-align: center; /* Centra las imágenes dentro del div */
+}
+.carrusel_tarjetas img {
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.carrusel_tarjetas img:hover{
+
+    transform: scale(1.1);
+}
+.carrusel_tarjetas img {
+    width: 300px;  /* Ancho fijo para todas las imágenes */
+    height: 360px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+    margin: 10%;   /* Espacio de 10px alrededor de cada imagen */
+}
+
+
+
+.imagen1 {
+
+    width: 250px;
+    height: 250px;
+    border:#ff0000;
+}
+
+body {
+    background-image: url('/fondo/difuminado.jpeg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+
+.destacados {
+    color: #ff0000;
+    font-family: Montserrat, sans-serif;
+    transition: 0.3s ease-in-out; /* Transición suave */
+}
+
+.destacados:hover {
+    color: #fff; /* Cambia el color del texto a blanco */
+    background-color: #ff0000; /* Relleno rojo */
+    border: 2px solid #fff; /* Bordes blancos */
+    padding: 5px 10px; /* Añade relleno interno para que el borde no toque el texto */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000;
+}
+
+
+.subtitulo {
+    color: #ff0000;
+    font-family: Montserrat, sans-serif;
+    transition: 0.3s ease-in-out; /* Transición suave */
+}
+
+.subtitulo:hover {
+    color: #fff; /* Cambia el color del texto a blanco */
+    background-color: #ff0000; /* Relleno rojo */
+    border: 2px solid #fff; /* Bordes blancos */
+    padding: 5px 10px; /* Añade relleno interno para que el borde no toque el texto */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000;
+}
+.registro {
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .form-container { max-width: 400px; margin: auto; }
+    .hidden { display: none; }
+
+    .h1 { color:#fff}
+}
